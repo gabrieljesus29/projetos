@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perfumes importados premium das melhores marcas internacionais com entrega para todo o Brasil">
+    <meta name="keywords" content="perfume importado, fragrância de luxo, eau de parfum, perfume original">
+    <title>Sigma Perfumes | Importados Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Sigma<span>Perfumes</span></a>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Coleções</a></li>
+                    <li><a href="#marcas">Marcas</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="#" class="user-login" aria-label="Minha conta"><i class="fas fa-user"></i></a>
+                <a href="#" class="cart-btn" aria-label="Carrinho de compras">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+            
+            <button class="mobile-menu-btn" aria-label="Menu mobile">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Coleção Exclusiva 2025</h1>
+            <p>Fragrâncias importadas que definem sua essência</p>
+            <div class="hero-cta">
+                <a href="#produtos" class="btn btn-primary">Explorar Coleção</a>
+                <a href="#marcas" class="btn btn-outline">Conhecer Marcas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="highlights-section">
+        <div class="container">
+            <div class="highlight-card">
+                <i class="fas fa-truck"></i>
+                <h4>Frete Grátis</h4>
+                <p>Para compras acima de R$ 500</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-lock"></i>
+                <h4>Pagamento Seguro</h4>
+                <p>Processado com criptografia</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-gift"></i>
+                <h4>Embalagem Presente</h4>
+                <p>Grátis em todas as compras</p>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-undo"></i>
+                <h4>Troca Fácil</h4>
+                <p>Até 7 dias após a compra</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section class="products-section" id="produtos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nossas Fragrâncias</h2>
+                <p class="section-subtitle">Seleção das melhores essências internacionais</p>
+            </div>
+            
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="feminino">Feminino</button>
+                <button class="filter-btn" data-filter="masculino">Masculino</button>
+                <button class="filter-btn" data-filter="unissex">Unissex</button>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Produto 1 -->
+                <article class="product-card" data-category="feminino">
+                    <div class="product-img">
+                        <img src="https://example.com/chanel-no5.jpg" alt="Chanel N°5 Eau de Parfum 100ml" loading="lazy">
+                        <div class="product-badge">Mais Vendido</div>
+                        <button class="wishlist-btn" aria-label="Adicionar à lista de desejos">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-meta">
+                            <span class="product-brand">Chanel</span>
+                            <div class="product-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                        <h3>N°5 Eau de Parfum</h3>
+                        <p class="product-description">Fragrância icônica floral-aldeídica</p>
+                        <div class="product-footer">
+                            <p class="product-price">R$ 899,90</p>
+                            <button class="add-to-cart">Adicionar</button>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Mais produtos... -->
+            </div>
+            
+            <div class="section-footer">
+                <a href="#" class="btn btn-outline">Ver Todos os Produtos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <h3>Assine Nossa Newsletter</h3>
+                <p>Receba 10% OFF na primeira compra e novidades exclusivas</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="btn btn-primary">Assinar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Sigma Perfumes</h3>
+                    <p>Especialistas em perfumes importados das melhores marcas internacionais.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Institucional</h3>
+                    <ul>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Nossas lojas</a></li>
+                        <li><a href="#">Trabalhe conosco</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Ajuda</h3>
+                    <ul>
+                        <li><a href="#">Central de atendimento</a></li>
+                        <li><a href="#">Política de entrega</a></li>
+                        <li><a href="#">Trocas e devoluções</a></li>
+                        <li><a href="#">Guia de tamanhos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt"></i> Av. das Fragrâncias, 1001 - São Paulo/SP</p>
+                        <p><i class="fas fa-phone"></i> (11) 4002-8922</p>
+                        <p><i class="fas fa-envelope"></i> contato@sigmaparfumes.com.br</p>
+                        <p><i class="fas fa-clock"></i> Seg-Sex: 9h-18h | Sáb: 9h-13h</p>
+                    </address>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <div class="container">
+                <p>&copy; 2025 Sigma Perfumes. Todos os direitos reservados.</p>
+                <div class="payment-methods">
+                    <img src="images/payments/visa.svg" alt="Visa" loading="lazy">
+                    <img src="images/payments/mastercard.svg" alt="Mastercard" loading="lazy">
+                    <img src="images/payments/amex.svg" alt="American Express" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Carrinho Sidebar -->
+    <aside class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart" aria-label="Fechar carrinho"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <!-- Itens serão inseridos via JavaScript -->
+        </div>
+        <div class="cart-total">
+            <div class="cart-subtotal">
+                <span>Subtotal</span>
+                <span class="subtotal-price">R$ 0,00</span>
+            </div>
+            <div class="cart-shipping">
+                <span>Frete</span>
+                <span class="shipping-price">Calcular</span>
+            </div>
+            <div class="cart-grandtotal">
+                <span>Total</span>
+                <span class="total-price">R$ 0,00</span>
+            </div>
+            <a href="#" class="btn btn-primary checkout-btn">Finalizar Compra</a>
+        </div>
+    </aside>
+    <div class="cart-overlay"></div>
+
+    <!-- Login Modal -->
+    <div class="login-modal">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Fechar modal"><i class="fas fa-times"></i></button>
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="login">Login</button>
+                <button class="auth-tab" data-tab="register">Cadastro</button>
+            </div>
+            
+            <form id="login-form" class="auth-form active">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" required>
+                </div>
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox"> Lembrar-me
+                    </label>
+                    <a href="#" class="forgot-password">Esqueceu a senha?</a>
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+            </form>
+            
+            <form id="register-form" class="auth-form">
+                <!-- Formulário de cadastro -->
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
