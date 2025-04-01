@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de moda com as últimas tendências">
+    <title>Moda Elegante - Sua Loja de Fashion</title>
+    <link rel="stylesheet" href="F.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Moda<span>Elegante</span></a>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="#" class="user-login"><i class="fas fa-user"></i></a>
+                <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a>
+            </div>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Coleção Outono/Inverno 2025</h1>
+            <p>Descubra peças exclusivas para seu guarda-roupa</p>
+            <a href="#produtos" class="btn">Ver Coleção</a>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section class="products-section" id="produtos">
+        <div class="container">
+            <h2 class="section-title">Nossos Produtos</h2>
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="feminino">Feminino</button>
+                <button class="filter-btn" data-filter="masculino">Masculino</button>
+                <button class="filter-btn" data-filter="acessorios">Acessórios</button>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Produto 1 -->
+                <div class="product-card" data-category="feminino">
+                    <div class="product-img">
+                        <img src="https://th.bing.com/th/id/OIP.G9oOSPRs79jjXv-9k7n01AHaLH?rs=1&pid=ImgDetMain" alt="Vestido Azul">
+                        <div class="product-badge">Novo</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Vestido Azul</h3>
+                        <p class="product-price">R$ 199,90</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="product-card" data-category="feminino">
+                    <div class="product-img">
+                        <img src="https://www.dicasdemulher.com.br/wp-content/uploads/2018/10/vestido-vermelho-longo-6-768x960.jpg" alt="Vestido Vemelho">
+                        <div class="product-badge">Novo</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Vestido Vermelho</h3>
+                        <p class="product-price">R$ 169,90</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                
+                <!-- Produto 3 -->
+                <div class="product-card" data-category="masculino">
+                    <div class="product-img">
+                        <img src="images/produtos/camisa-social-azul.jpg" alt="Camisa Social Azul">
+                    </div>
+                    <div class="product-info">
+                        <h3>Camisa Social Azul</h3>
+                        <p class="product-price">R$ 159,90</p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                
+                <!-- Produto 4 -->
+                <div class="product-card" data-category="acessorios">
+                    <div class="product-img">
+                        <img src="images/produtos/bolsa-couro.jpg" alt="Bolsa de Couro">
+                        <div class="product-badge">-20%</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bolsa de Couro</h3>
+                        <p class="product-price">R$ 249,90 <span class="old-price">R$ 312,90</span></p>
+                        <button class="add-to-cart">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                
+                <!-- Adicione mais produtos conforme necessário -->
+            </div>
+                
+          
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <h2 class="section-title">Tendências de Moda</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="https://finartsa.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-31-at-11.29.03-AM.jpeg" alt="Tendência 2024">
+                    <div class="blog-content">
+                        <h3>As cores que estarão em alta em 2025</h3>
+                        <p class="blog-date">15 Jan, 2025</p>
+                        <p>Descubra as paletas de cores que dominarão as passarelas...</p>
+                        <a href="#" class="read-more">Ler mais</a>
+                    </div>
+                </article>
+                
+                <!-- Mais artigos... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-column">
+                <h3>Sobre Nós</h3>
+                <p>Moda Elegante é uma loja especializada em trazer as últimas tendências da moda para você.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos de Serviço</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contato</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Rua da Moda, 123 - Natal</p>
+                <p><i class="fas fa-phone"></i> (84) 98765-4321</p>
+                <p><i class="fas fa-envelope"></i> contato@modaelegante.com</p>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 Moda Elegante. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Carrinho Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+      
+        </div>
+        <div class="cart-total">
+            <p>Total: <span class="total-price">R$ 0,00</span></p>
+            <a href="#" class="btn checkout-btn">Finalizar Compra</a>
+        </div>
+    </div>
+    <div class="cart-overlay"></div>
+
+    <!-- Login Modal -->
+    <div class="login-modal">
+        <div class="modal-content">
+            <button class="close-modal"><i class="fas fa-times"></i></button>
+            <h3>Login</h3>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+                <p class="register-link">Não tem conta? <a href="#">Cadastre-se</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="F.js"></script>
+</body>
+</html>
